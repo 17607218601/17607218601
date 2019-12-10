@@ -1,0 +1,168 @@
+@import "fonts/iconfont.css";
+
+.nav {
+    box-sizing: border-box;
+    width: 100%;
+    height: 90px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    // display: flex;
+    background-color: #fff;
+    border-bottom: 1px solid #f3f3f3;
+    width: 100%;
+    overflow: auto;
+
+    white-space: nowrap;
+
+    div {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 20%;
+
+        .a1 {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: url(../../../assets/images/bavv_03.png) no-repeat;
+            background-size: cover;
+            margin-left: 18px;
+        }
+
+        .a2 {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: url(../../../assets/images/bavv_05.png) no-repeat;
+            background-size: cover;
+            margin-left: 22px;
+        }
+
+        .a3 {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: url(../../../assets/images/bavv_07.png) no-repeat;
+            background-size: cover;
+            margin-left: 20px;
+        }
+
+        .a4 {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: url(../../../assets/images/bavv_09.png) no-repeat;
+            background-size: cover;
+            margin-left: 22px;
+        }
+
+        .a5 {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: url(../../../assets/images/bavv_11.png) no-repeat;
+            background-size: cover;
+            margin-left: 22px;
+        }
+
+        p {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 10px;
+    .list {
+        // margin: 10px;
+        background: #fff;
+        color: #333;
+        box-shadow: 0 2px 2px #c8c8c8;
+        border-radius: 5px;
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 55px;
+
+            .icon {
+                .iconfont {
+                    font-size: 24px;
+                    font-weight: 600;
+                    width: 30px;
+                    margin: 0 15px 0 10px;
+                    text-align: center;
+                }
+            }
+
+            .bendi {
+                flex-grow: 1;
+                font-size: 16px;
+            }
+
+            .num {
+                font-size: 14px;
+                color: #666;
+            }
+
+            .bf {
+                color: #000;
+                margin: 0 20px;
+                font-weight: 600;
+
+                .iconfont {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+    .gedan {
+        margin-top: 10px;
+        background: #fff;
+        color: #333;
+        box-shadow: 0 2px 2px #c8c8c8;
+        border-radius: 5px;
+
+        .title {
+            display: flex;
+            align-items: center;
+            height: 55px;
+            border-bottom: 1px solid #eee;
+            padding-left: 15px;
+            font-size: 16px;
+            color: #000;
+
+            .w {
+                flex-grow: 1;
+            }
+
+            .j {
+                width: 24px;
+                height: 24px;
+
+                .iconfont {
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+
+            }
+
+            .l {
+                color: #000;
+                margin: 0 15px;
+                font-weight: 600;
+
+                .icon-liebiao1 {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .wdgd {
+            min-height: 100px;
+        }
+    }
+}
